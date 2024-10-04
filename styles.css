@@ -1,0 +1,54 @@
+html {
+    font-size: 16px;
+    text-align: center;
+}
+body {
+    background: url(./bg.jpg);
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col {
+    flex-direction: column;
+}
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    font-size: 60px;
+    color: cyan;
+}
+.title2 {
+    font-size: 55px;
+    color: cyan;
+    padding: 1rem;
+    border: 4px dashed gold;
+}
+.popup {
+    color: red;
+    font-size: 40px;
+}
+
+.lg-button {
+    font-size: 40px;
+    padding: 1rem;
+    background-color: gold;
+    color: cyan;
+    border: 4px solid gray;
+}
+.hide {
+    display: none;
+}
+.w-large {
+    width: 25rem;
+}
+.m-temp {
+    margin: 2em 0;
+    font-size: 30px;
+}
+.ms {
+    margin-left: 1.5em;
+}

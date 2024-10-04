@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liar's bar spinoff</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="center col">
+        <h1 class="title">Liar's bar spinoff</h1>
+
+        <button class="lg-button" id="deck">
+            Liar's Deck
+        </button>
+
+        <div class="hide between w-large" id="liardeck">
+            <button class="lg-button" id="player">Player</button>
+            <button class="lg-button" id="admin">Admin</button>
+        </div>
+        <div class="hide col center between w-large" id="playerview">
+            <img src="" id="revolver">
+            <button class="lg-button m-temp" id="fire">fire</button>
+            <button class="lg-button m-temp hide" id="restart">restart</button>
+        </div>
+        <div class="hide col center between w-large" id="adminview">
+            <h2 id="currenttable"></h2>
+            <div class="center">
+                <button class="lg-button m-temp" id="reroll">reroll</button>
+                <p class="hide ms popup" id="popup">table rerolled</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script> 
+</html>
