@@ -52,7 +52,8 @@ reroll.addEventListener('click', function(){
 })
 fire.addEventListener('click', function(){
     revolver.src = 'spin.gif'
-    setTimeout(function(){
+    clearTimeout(check)
+    check = setTimeout(function(){
         shoot()
     }, 2600)
     
