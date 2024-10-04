@@ -55,7 +55,7 @@ fire.addEventListener('click', function(){
     clearTimeout(check)
     check = setTimeout(function(){
         shoot()
-    }, 1700)
+    }, 1900)
     
 })
 restart.addEventListener('click', function(){
